@@ -31,7 +31,7 @@ const Skill = () => {
     {
       id: 6,
       nama: "React",
-      image: "/img/react.png",
+      image: "/img/React.png",
     },
     {
       id: 7,

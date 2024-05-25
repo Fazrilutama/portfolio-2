@@ -14,13 +14,13 @@ const Sertifikat = () => {
               alt="LontarLab"
               className=" rounded-3xl"
             />
-            <h2 className="text-center font-bold py-3">
+            <h2 className="text-center text-white font-bold py-3">
               Tes Ujikom PT Lontarlab
             </h2>
           </div>
           <div className="m-5 bg-[#1f1f1f] rounded-2xl">
             <img src="/img/sawala.jpeg" alt="Sawala" className=" rounded-3xl" />
-            <h2 className="text-center font-bold py-3">
+            <h2 className="text-center text-white font-bold py-3">
               Tes Ujikom PT Lontarlab
             </h2>
           </div>

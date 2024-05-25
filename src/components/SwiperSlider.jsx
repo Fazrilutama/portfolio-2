@@ -64,7 +64,7 @@ const SwiperSlider = () => {
             {projects.map((item) => {
               return (
                 <SwiperSlide key={item.id}>
-                  <div className="shadow-lg rounded-xl  text-center p-4 lg:p-7 mx-5 bg-[#1f1f1f]">
+                  <div className="shadow-xl  rounded-xl  text-center p-4 lg:p-7 mx-5 bg-[#1f1f1f]">
                     <img
                       src={item.image}
                       alt="project"
@@ -73,7 +73,7 @@ const SwiperSlider = () => {
                     <p className="text-center text-white font-bold text-xl pt-3 md:pt-5">
                       {item.title}
                     </p>
-                    <p className="text-sm md:text-base py-2 md:py-5">
+                    <p className="text-sm text-white md:text-base py-2 md:py-5">
                       {item.description}
                     </p>
                     <Link
