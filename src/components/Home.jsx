@@ -7,13 +7,13 @@ import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
-
-  const myInstagram = "fzrlutma";
+  const myInstagram =
+    "https://www.instagram.com/fzrlutma?igsh=MThwZnUxY3N6bHZ4Mg==";
   const myFacebook =
     "https://www.facebook.com/profile.php?id=100076539854422&mibextid=ZbWKwL";
   const mylinkind =
     "https://www.linkedin.com/in/fazril-utama-28b83b2a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
-  const myGithub = "https://github.com/Fazrilutama/web-smkn-2-sukabumi";
+  const myGithub = "https://github.com/Fazrilutama";
 
   return (
     <div className=" bg-[#1c1c1d]" id="home">
@@ -109,10 +109,8 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <Link href={mylinkind}>
-            <button
-              className="text-md font-bold text-yellow-400 border-2 border-yellow-400 w-40 rounded-full py-2 hover:text-[#ffff] hover:bg-yellow-400 transition duration-300 ease-in-out  hover:scale-110 "
-            >
+          <Link href={mylinkind} target="_blank">
+            <button className="text-md font-bold text-yellow-400 border-2 border-yellow-400 w-40 rounded-full py-2 hover:text-[#ffff] hover:bg-yellow-400 transition duration-300 ease-in-out  hover:scale-110 ">
               Download CV
             </button>
           </Link>
