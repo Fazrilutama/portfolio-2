@@ -1,12 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import { redirect } from "next/dist/server/api-utils";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  });
+
   const myInstagram =
     "https://www.instagram.com/fzrlutma?igsh=MThwZnUxY3N6bHZ4Mg==";
   const myFacebook =
@@ -18,7 +25,10 @@ const Home = () => {
   return (
     <div className=" bg-[#1c1c1d]" id="home">
       <div className="container mx-auto flex flex-col md:flex-row">
-        <div className="md:min-h-screen flex flex-col  md:justify-center pb-14 mt-28 md:mt-0 px-4 md:px-10 lg:px-16  order-2 md:order-1">
+        <div
+          data-aos="zoom-out"
+          className="md:min-h-screen flex flex-col  md:justify-center pb-14 mt-28 md:mt-0 px-4 md:px-10 lg:px-16  order-2 md:order-1"
+        >
           <div className="text-white font-bold flex flex-col gap-2 md:gap-4  ">
             <h3 className="text-xl md:text-2xl ">Hello, I'm</h3>
             <h1 className=" text-3xl md:text-5xl">Fazril Utama</h1>
@@ -116,7 +126,10 @@ const Home = () => {
           </Link>
         </div>
         <div className="flex justify-center items-center order-1 md:order-1 px-2 md:px-7 lg:px-12 ">
-          <div className=" w-[300px] h-[300px] md:w-[325x] md:h-[325px]  lg:w-[475px] lg:h-[475px] py-24 md:py-0 ">
+          <div
+            data-aos="zoom-out"
+            className=" w-[300px] h-[300px] md:w-[325x] md:h-[325px]  lg:w-[475px] lg:h-[475px] py-24 md:py-0 "
+          >
             <Image
               src="/img/me.png"
               alt=""

@@ -1,8 +1,15 @@
+import Aos from "aos";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Footer = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+    });
+  });
   const myInstagram = "fzrlutma";
   const myFacebook =
     "https://www.facebook.com/profile.php?id=100076539854422&mibextid=ZbWKwL";

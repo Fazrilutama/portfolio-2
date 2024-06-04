@@ -48,10 +48,17 @@ const SwiperSlider = () => {
   return (
     <>
       <div className="bg-[#1a1a1a] py-20 md:py-0" id="project">
-        <h1 className="text-center text-white text-3xl font-bold py-5 border-b-4 border-yellow-500">
+        <h1
+          data-aos="zoom-out"
+          className="text-center text-white text-3xl font-bold py-5 border-b-4 border-yellow-500"
+        >
           Projects
         </h1>
-        <div className="py-12 md:py-28">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          className="py-12 md:py-28"
+        >
           <Swiper
             spaceBetween={30}
             slidesPerView={1}
