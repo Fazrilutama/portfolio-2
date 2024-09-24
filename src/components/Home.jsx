@@ -30,8 +30,22 @@ const Home = () => {
           className="md:min-h-screen flex flex-col  md:justify-center pb-14 mt-28 md:mt-0 px-4 md:px-10 lg:px-16  order-2 md:order-1"
         >
           <div className="text-white font-bold flex flex-col gap-2 md:gap-4  ">
-            <h3 className="text-xl md:text-2xl ">Hello, I'm</h3>
-            <h1 className=" text-3xl md:text-5xl">Fazril Utama</h1>
+            <h3
+              className="text-xl md:text-2xl "
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-delay="700"
+            >
+              Hello, I'm
+            </h3>
+            <h1
+              className=" text-3xl md:text-5xl"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-delay="900"
+            >
+              Fazril Utama
+            </h1>
             <h3 className="text-xl md:text-2xl">
               And I'm a{" "}
               <span className="text-yellow-400">
@@ -48,15 +62,29 @@ const Home = () => {
                 />
               </span>
             </h3>
-            <p className="font-light text-sm md:text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quo aliquam voluptatibus ducimus, magnam earum provident! Quos
-              enim nesciunt eum.
+            <p
+              className="font-light text-sm md:text-base"
+              data-aos="flip-down"
+              data-aos-duration="1500"
+              data-aos-delay="1100"
+            >
+              Perkenalkan, saya [Nama Anda], seorang programer yang berfokus
+              pada pengembangan frontend. Saya memiliki pengalaman dalam
+              membangun antarmuka pengguna yang responsif dan interaktif
+              menggunakan teknologi seperti HTML, CSS, JavaScript, dan framework
+              seperti React dan Next.js. Selain itu, saya juga seorang content
+              creator yang aktif berbagi konten terkait teknologi dan
+              pengembangan web, serta beberapa konten kreatif lainnya. Saya
+              senang terus belajar dan menghadapi tantangan baru dalam dunia
+              teknologi
             </p>
           </div>
           <div className="py-8">
             <div className="flex gap-3 ">
               <Link
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1300"
                 href={myFacebook}
                 target="_blank"
                 className="border-2 p-2 rounded-full border-yellow-400 transition duration-300 ease-in-out hover:scale-110"
@@ -73,6 +101,9 @@ const Home = () => {
               </Link>
 
               <Link
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1400"
                 href={myInstagram}
                 target="_blank"
                 className="border-2 p-2 rounded-full border-yellow-400 transition duration-300 ease-in-out hover:scale-110"
@@ -88,6 +119,9 @@ const Home = () => {
                 </svg>
               </Link>
               <Link
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1500"
                 href={myGithub}
                 target="_blank"
                 className="border-2 p-2 rounded-full border-yellow-400 transition duration-300 ease-in-out hover:scale-110"
@@ -103,6 +137,9 @@ const Home = () => {
                 </svg>
               </Link>
               <Link
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1600"
                 href={mylinkind}
                 target="_blank"
                 className="border-2 p-2 rounded-full border-yellow-400 transition duration-300 ease-in-out hover:scale-110"
@@ -119,7 +156,13 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <Link href={mylinkind} target="_blank">
+          <Link
+            href={mylinkind}
+            target="_blank"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
             <button className="text-md font-bold text-yellow-400 border-2 border-yellow-400 w-40 rounded-full py-2 hover:text-[#ffff] hover:bg-yellow-400 transition duration-300 ease-in-out  hover:scale-110 ">
               Download CV
             </button>
@@ -128,10 +171,11 @@ const Home = () => {
         <div className="flex justify-center items-center order-1 md:order-1 px-2 md:px-7 lg:px-12 ">
           <div
             data-aos="zoom-out"
+            data-aos-duration="3000"
             className=" w-[300px] h-[300px] md:w-[325x] md:h-[325px]  lg:w-[475px] lg:h-[475px] py-24 md:py-0 "
           >
             <Image
-              src="/img/me.png"
+              src="/img/fazril.png"
               alt=""
               width={450}
               height={450}

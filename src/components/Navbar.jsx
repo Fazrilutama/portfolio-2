@@ -14,7 +14,11 @@ const Navbar = () => {
     <nav className="bg-[#363636] z-10">
       <div className=" p-4  bg-[#1c1c1d] w-full mx-auto fixed top-0 left-0 right-0 text-center border-b drop-shadow z-10">
         <div className="flex justify-between items-center px-2 md:px-7 lg:px-12">
-          <h1 className="text-white text-2xl font-bold">
+          <h1
+            className="text-white text-2xl font-bold"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
             <Link href="#home">
               <span className="text-yellow-400">Fazril</span> <span>Utama</span>
             </Link>
@@ -23,24 +27,36 @@ const Navbar = () => {
             <div className="flex items-center text-md lg:text-lg gap-10 ">
               <Link
                 href="#home"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="100"
                 className="text-white block focus:text-yellow-400 hover:border-b-2 active:text-yellow-400 hover:border-yellow-400 hover:text-yellow-400  transition"
               >
                 Home
               </Link>
               <Link
                 href="#skills"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="200"
                 className="text-white block focus:text-yellow-400 hover:border-b-2 active:text-yellow-400 hover:border-yellow-400 hover:text-yellow-400  transition "
               >
                 Skills
               </Link>
               <Link
                 href="#project"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="300"
                 className="text-white block focus:text-yellow-400 hover:border-b-2 active:text-yellow-400 hover:border-yellow-400  hover:text-yellow-400 transition"
               >
                 Project
               </Link>
               <Link
                 href="#Sertifikat"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="400"
                 className="text-white block focus:text-yellow-400 hover:border-b-2 active:text-yellow-400 hover:border-yellow-400 hover:text-yellow-400  transition"
               >
                 Sertifikat

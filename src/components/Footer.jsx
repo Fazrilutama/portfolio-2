@@ -41,6 +41,9 @@ const Footer = () => {
         <Link href={mylinkind} target="_blank">
           <Image src="/img/linkind.png" alt="linkind" width={30} height={30} />
         </Link>
+        <Link href={myGithub} target="_blank">
+          <Image src="/github.png" alt="github" width={30} height={30} />
+        </Link>
       </div>
     </div>
   );
