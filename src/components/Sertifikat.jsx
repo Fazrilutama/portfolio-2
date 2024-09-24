@@ -103,12 +103,12 @@ const Sertifikat = () => {
       title: "Sertifikat React MySkill",
     },
     {
-      imgSrc: "/img/react-Codepolitan.jpg",
+      imgSrc: "/img/react-codepolitan.jpg",
       altText: "React JS Codepolitan",
       title: "Sertifikat React Codepolitan",
     },
     {
-      imgSrc: "/img/state-Codepolitan.jpg",
+      imgSrc: "/img/state-codepolitan.jpg",
       altText: "State Management Codepolitan",
       title: "Sertifikat State Management Codepolitan",
     },
