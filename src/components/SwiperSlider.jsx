@@ -50,7 +50,7 @@ const SwiperSlider = () => {
       <div className="bg-[#1a1a1a] py-20 md:py-0" id="project">
         <h1
           data-aos="zoom-out"
-          className="text-center text-white text-3xl font-bold py-5 border-b-4 border-yellow-500"
+          className="text-center text-white text-3xl font-bold py-5 border-b-4 border-yellow-500 "
         >
           Projects
         </h1>
@@ -62,7 +62,6 @@ const SwiperSlider = () => {
           <Swiper
             spaceBetween={30}
             slidesPerView={1}
-            loop={true}
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             breakpoints={breakpoints}
