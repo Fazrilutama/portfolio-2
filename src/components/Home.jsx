@@ -68,7 +68,7 @@ const Home = () => {
               data-aos-duration="1500"
               data-aos-delay="1100"
             >
-              Perkenalkan, saya [Nama Anda], seorang programer yang berfokus
+              Perkenalkan, saya Fazril Utama, seorang programer yang berfokus
               pada pengembangan frontend. Saya memiliki pengalaman dalam
               membangun antarmuka pengguna yang responsif dan interaktif
               menggunakan teknologi seperti HTML, CSS, JavaScript, dan framework
